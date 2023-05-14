@@ -1,0 +1,11 @@
+# ninja log v5
+0	49	1684028075963817925	build.ninja	109973a437e0406
+436	509	1684028012093691119	Frugoli_Blackjack	a4c8b3bd0cf4b361
+2	161	1684024014607458965	CMakeFiles/Frugoli_Blackjack.dir/Deck.cpp.o	855b13d0b5977de4
+3	176	1684024014623883311	CMakeFiles/Frugoli_Blackjack.dir/Card.cpp.o	1ff895599822cd6b
+0	16	1684024035505863652	CMakeFiles/Frugoli_Blackjack.dir/Player.cpp.o	cb626812f55b5c5b
+1	436	1684028012017043741	CMakeFiles/Frugoli_Blackjack.dir/main.cpp.o	e8acea9507032f07
+2	161	1684024014607458881	CMakeFiles/Frugoli_Blackjack.dir/Dealer.cpp.o	b77616dde0458e52
+0	55	1684028075963817925	build.ninja	109973a437e0406
+1	343	1684028076312082607	CMakeFiles/Frugoli_Blackjack.dir/main.cpp.o	e8acea9507032f07
+343	384	1684028076354868340	Frugoli_Blackjack	ed2d773de6e05a15
