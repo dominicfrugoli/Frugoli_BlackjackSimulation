@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/dominicfrugoli/Desktop/Frugoli_Blackjack/cmake-build-debug",
-		"source" : "/Users/dominicfrugoli/Desktop/Frugoli_Blackjack"
+		"build" : "/Users/dominicfrugoli/Desktop/Columbia/COLUM_Spring2023/C++Programming/Frugoli_BlackjackSimulation/cmake-build-debug",
+		"source" : "/Users/dominicfrugoli/Desktop/Columbia/COLUM_Spring2023/C++Programming/Frugoli_BlackjackSimulation"
 	},
 	"version" : 
 	{

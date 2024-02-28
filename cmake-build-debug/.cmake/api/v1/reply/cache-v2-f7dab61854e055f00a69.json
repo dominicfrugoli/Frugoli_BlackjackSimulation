@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/dominicfrugoli/Desktop/Frugoli_Blackjack/cmake-build-debug"
+			"value" : "/Users/dominicfrugoli/Desktop/Columbia/COLUM_Spring2023/C++Programming/Frugoli_BlackjackSimulation/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -515,7 +515,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/dominicfrugoli/Desktop/Frugoli_Blackjack"
+			"value" : "/Users/dominicfrugoli/Desktop/Columbia/COLUM_Spring2023/C++Programming/Frugoli_BlackjackSimulation"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -1087,7 +1087,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/dominicfrugoli/Desktop/Frugoli_Blackjack/cmake-build-debug"
+			"value" : "/Users/dominicfrugoli/Desktop/Columbia/COLUM_Spring2023/C++Programming/Frugoli_BlackjackSimulation/cmake-build-debug"
 		},
 		{
 			"name" : "Frugoli_Blackjack_IS_TOP_LEVEL",
@@ -1111,7 +1111,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/dominicfrugoli/Desktop/Frugoli_Blackjack"
+			"value" : "/Users/dominicfrugoli/Desktop/Columbia/COLUM_Spring2023/C++Programming/Frugoli_BlackjackSimulation"
 		}
 	],
 	"kind" : "cache",

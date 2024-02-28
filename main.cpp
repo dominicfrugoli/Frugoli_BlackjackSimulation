@@ -11,6 +11,7 @@ class Card // Card class that is used to fill the deck
         char suit;
 };
 
+
 class Deck // Deck class that is used for players to draw from
 {
     public:
@@ -35,6 +36,7 @@ class Deck // Deck class that is used for players to draw from
             }
         }
 };
+
 
 class Player // Player class that is used for the player and the dealer
 {
@@ -78,9 +80,29 @@ class Player // Player class that is used for the player and the dealer
                 }
             }
         }
+
+        double PercentageWon()
+        {
+            double totalGames = gamesWon + gamesDrawn + gamesLost;
+            double winPercent = (gamesWon/totalGames) * 100;
+            return winPercent;
+        }
+
+        double PercentageDrawn()
+        {
+            double totalGames = gamesWon + gamesDrawn + gamesLost;
+            double drawPercent = (gamesDrawn/totalGames) * 100;
+            return drawPercent;
+        }
+
+        double PercentageLost()
+        {
+            double totalGames = gamesWon + gamesDrawn + gamesLost;
+            double lossPercent = (gamesLost/totalGames) * 100;
+            return lossPercent;
+        }
+
 };
-
-
 
 
 int main()
@@ -94,7 +116,9 @@ int main()
     // the nullptr was recommended by clion
     srand(time(nullptr));
 
-    for(int i = 1; i <= 100; i++) // Runs the game 100 times
+    int gameAmount = 10000000;// Determines how many games the simulation will run
+
+    for(int i = 1; i <= gameAmount; i++)
     {
         // Both players take their turns
         player.Play(CardDeck);
@@ -130,6 +154,7 @@ int main()
             cout << "--------------" << endl << endl;
         }
     }
+    cout << player.PercentageWon() << "% - " << player.PercentageDrawn() << "% - " << player.PercentageLost() << "%" << endl;
     return 0;
 }
 
